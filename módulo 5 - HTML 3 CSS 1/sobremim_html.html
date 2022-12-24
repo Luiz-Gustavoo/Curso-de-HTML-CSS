@@ -22,8 +22,9 @@
         #menu{
             color:white;
             text-align:center;
-            font-size:20px;
+            font-size:30px;
         }
+
         header{
             background-color: steelblue;
         }
@@ -31,7 +32,68 @@
         body{
             background-color:lightblue;
         }
-        
+        nav{
+            padding: 5px;
+            
+        }
+        a{
+             text-decoration:none;
+             list-style-type:none;
+             color:white;
+             background-color:steelblue;
+            }
+        a:hover{
+            color:steelblue;
+            background-color:white;
+        }
+        li{
+            display:inline;
+        }
+        #sobremim{
+            color:steelblue;
+            text-align:center;
+            font-size:30px;
+
+        }
+        #paragrafo_sobremim{
+            color:white;
+            font-size:20px;
+        }
+        #contato{
+            color:steelblue;
+            text-align:center;
+            font-size:30px;
+        }
+        #lista_contato{
+            color:white;
+            text-align:center;
+            font-size:20px;
+        }
+        #portifolio{
+            color:steelblue;
+            text-align:center;
+            font-size:30px;
+        }
+        #subtitulo1_portifolio{
+            color:steelblue;
+            text-align:center;
+            font-size:25px;
+
+        }
+        #paragrafo_subtitulo1{
+            color:white;
+            font-size:20px;
+        }
+        #subtitulo2_portifolio{
+            color:steelblue;
+            text-align:center;
+            font-size:25px;
+        }
+        #paragrafo_subtitulo2{
+            color:white;
+            font-size:20px;
+
+        }
     </style>
 </head>
 <body>
@@ -43,9 +105,9 @@
 
     <nav>
         <ul id="menu">
-            <l1>Sobre mim</l1>
-            <li>Contato</li>
-            <li>Portfólio</li>
+            <l1><a href="#sobremim">Sobre mim</a></l1>
+            <li><a href="#contato">Contato</a></li>
+            <li><a href="#portifolio">Portfólio</a></li>
         </ul>
     </nav>
 
@@ -56,6 +118,26 @@
         >
 
     </article>
+    <section>
+        <h1 id="sobremim">Sobre mim</h1>
+            <p1 id="paragrafo_sobremim">Olá, meu nome é Luiz Gustavo é este é o meu site. Aqui você vai saber mais sobre mim, meu trabalho e estudos.</p1>
+
+        <h1 id="portifolio">Portifólio</h1>
+            <h3 id="subtitulo1_portifolio">Python</h3>    
+                <p1 id="paragrafo_subtitulo1">Python foi a primeira linguagem que comecei a aprender. Tenho alguns projetos básicos na linguagem, como um sistema de login, checagem de maioridade, calculadora de imc e outros. A medida que eu for aprendendo mais, os projetos ficarão mais avançados e aplicáveis ao mercado de trabalho</p1>
+            
+            <h3 id="subtitulo2_portifolio">Flutter</h3>
+                <p1 id="paragrafo_subtitulo2">Framework do Google para desenvolvimento de aplicativos. O mercado mobile é tendência no presente e no futuro, e eu também tive um grande interesse na área por ser de grande escala, já que todos usam o celular hoje em dia.<br>
+                Uma das minhas outras motivações para aprender a fazer aplicativos foi uma idéia de serviço de entermediação de serviços residênciais que tive, inspirado na Uber.</p1>
+        
+                <h1 id="contato">Contato</h1>
+            <ul id="lista_contato">
+                <li>GitHub: Luiz-Gustavoo</li>
+                <li>E-mail: gustavozanerato@hotmail.com</li>
+            </ul>
+
+
+    </section>
     
     
 </body>
